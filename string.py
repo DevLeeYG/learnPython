@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # def add(a,b):
 #   return a+b
 
@@ -48,3 +50,17 @@ number = 10
 day = "three"
 
 print("I ate %d apples. so I was sick %s days." %(number,day))
+
+asdf = "Error is %d%%." % 98
+
+print(asdf)
+
+
+print("%-10s" % 'hi')
+
+print("%-10sjane" % 's')
+
+print("%0.4f" % 3.41124)
+
+print('I eat {0}{0} apples'.format(3))
+
