@@ -62,5 +62,23 @@ print("%-10sjane" % 's')
 
 print("%0.4f" % 3.41124)
 
-print('I eat {0}{0} apples'.format(3))
+print('I eat {0} apples'.format('five'))
+
+print("{0:<10}".format("hi"))#총 문자열의 자리수가 10 이며 왼쪽 정렬
+
+print("{0:^10}".format("hi"))
+
+print("{0:=^10}".format("hi"))
+
+print("{0:!<10}".format("hi"))
+y=3.42134234
+print("{0:10.4f}".format(y))
+
+print("{{and}}".format())
+
+name = '홍길동'
+age = 30
+
+print(f'나의 이름은 {name}입니다. 나이는{age}입니다.')
+
 
