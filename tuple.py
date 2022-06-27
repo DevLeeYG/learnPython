@@ -16,3 +16,10 @@ print(s1)
 print(s1&s2)
 
 print(s1.intersection(s2))
+
+grade = {'pey' : 10, 'julliet' :99}
+
+
+asdf = {1:'a' , 2:'b'}
+
+print(asdf[1])

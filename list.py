@@ -1,40 +1,20 @@
-# -*- coding: utf-8 -*-
+from copy import copy
 
-a = []
-b = [1,2,3]
-
-
-c = [1,2,3,['a','b','c']]
-
-print(c[3][1])
+s1 = set([1,2,3,])
+li = list(s1)
+print(li)
+print(s1)
 
 
-#리스트 슬라이싱
-'''
-문자열과 마찬가지로 리스트에서도 슬라이싱 기법을 적용할 수 있다. 슬라이싱은 '나눈다'는 뜻이라고 했다.
-'''
-
-
-d = [1,2,3]
-e = [4,5,6]
-
-print(d+e)
-
-f =[1,2,3]
-
-print(f*3)
-
-g = [1,2,3]
-
-
-print(len(g))
+print(list([1,2,3,4]))
 
 
 
-h = [1,2,3]
 
-print("hi" + str(h[0]))
 
-h.pop(2)
 
-print(h)
+
+
+a=b='python'
+
+print(a,b)
