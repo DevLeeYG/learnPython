@@ -4,6 +4,7 @@ dic = {'name':'pay'}
 print(dic['name'])
 
 dic['age'] = 19
+dic['age'] = 18
 
 del dic['name']
 
