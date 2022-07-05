@@ -1,6 +1,8 @@
-from copy import copy
 
-s1 = set([1,2,3,])
+
+
+
+
 li = list(s1)
 print(li)
 print(s1)
